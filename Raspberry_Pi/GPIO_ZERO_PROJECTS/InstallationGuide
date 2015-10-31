@@ -1,0 +1,17 @@
+
+INSTALLATION STEPS:
+A simple interface to everyday GPIO components used with Raspberry Pi.
+
+1) First, install the dependencies:
+
+    sudo apt-get install python-pip python3-pip python-w1thermsensor python3-w1thermsensor python-spidev python3-spidev
+
+2) Install with pip (Both Python 3 and Python 2 are supported):
+    
+    sudo pip install gpiozero
+    sudo pip-3.2 install gpiozero
+    
+3) Upgrade to the latest version with:
+
+    sudo pip install gpiozero --upgrade
+    sudo pip-3.2 install gpiozero --upgrade
