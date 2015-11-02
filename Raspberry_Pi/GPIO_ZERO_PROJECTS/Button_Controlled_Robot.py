@@ -6,6 +6,8 @@ from signal import pause
 
 robot = RyanteckRobot()
 
+# Define four GPIO buttons
+
 left = Button(26)
 right = Button(16)
 fw = Button(21)
