@@ -25,3 +25,4 @@ while True:
               green.on()
               yellow.off()
               red.off()
+
