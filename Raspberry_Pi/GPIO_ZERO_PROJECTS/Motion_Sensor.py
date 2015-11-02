@@ -8,3 +8,4 @@ led = LED(16)
 
 pir.when_motion = led.on
 pir.when_no_motion = led.off
+
