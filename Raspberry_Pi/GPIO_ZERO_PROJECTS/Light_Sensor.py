@@ -10,3 +10,4 @@ while True:
     print("It's light...")
     sensor.wait_for_dark()
     print("It's dark...")
+
