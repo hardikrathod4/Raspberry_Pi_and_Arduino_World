@@ -7,8 +7,8 @@ from email.Utils import COMMASPACE, formatdate
 from email import Encoders
 import os
 
-USERNAME = "hdrathod007@gmail.com"
-PASSWORD = "9033239773"
+USERNAME = "***sender***@gmail.com"
+PASSWORD = "password"
 
 def sendMail(to, subject, text, files=[]):
     assert type(to)==list
@@ -38,7 +38,7 @@ def sendMail(to, subject, text, files=[]):
 	server.sendmail(USERNAME, to, msg.as_string())
 	server.quit()
 
-sendMail( ["hardikrathod4@gmail.com"],
+sendMail( ["***receiver***4@gmail.com"],
         "Notification from Home",
         "Someone entered in your Home, picture attached",
         ["/home/pi/RPi/Webcam_Security_System/images/webcam.jpg"] )
